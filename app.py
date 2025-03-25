@@ -42,7 +42,7 @@ import math
 
 import numpy
 import pandas
-import scikit-learn
+import sklearn
 
 
 
