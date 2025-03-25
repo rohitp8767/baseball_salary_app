@@ -30,8 +30,8 @@
 
 
 
-['CAtBat', 'CHits', 'CRuns', 'CRBI', 'AtBat', 'CWalks', 'Hits', 'RBI',
-       'Walks', 'CHmRun', 'Runs']
+# ['CAtBat', 'CHits', 'CRuns', 'CRBI', 'AtBat', 'CWalks', 'Hits', 'RBI',
+#        'Walks', 'CHmRun', 'Runs']
 
 
 
@@ -39,6 +39,12 @@ import streamlit as st
 import numpy as np
 import pickle
 import math
+
+import numpy
+import pandas
+import scikit-learn
+
+
 
 # Load the model
 model = pickle.load(open('baseball.pkl', 'rb'))
