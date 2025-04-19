@@ -11,10 +11,19 @@ import base64
 
 def insert_to_mysql(data):
     conn = mysql.connector.connect(
-        host='localhost',       # or 127.0.0.1
-        user='root',   # e.g., root
-        password='123456789',
-        database='baseball'
+        # host='localhost',       # or 127.0.0.1
+        # user='root',   # e.g., root
+        # password='123456789',
+        # database='baseball'
+
+        host='sql12.freesqldatabase.com',
+        # Database name: sql12774116
+        user='sql12774116',
+        password='HDpEzDwiXH',
+        # Port number: 3306
+        database='sql12774116'
+
+
     )
     
     cursor = conn.cursor()
